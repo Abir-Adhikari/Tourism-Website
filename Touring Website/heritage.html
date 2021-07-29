@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Heritage Photos</title>
+	  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Mate+SC&family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style >
+  body {
+      font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 14px;
+      line-height: 1.42857143;
+      color: #333;
+      background-color: #dbf6e9;
+  }
+.img-responsive{
+	margin: 8px;
+	transition: 0.5s ease;
+}
+
+.img-responsive:hover{
+	box-shadow: 4px 5px 5px 4px #888888;
+	border-radius: 10px;
+}
+
+.heading{
+	text-align: center;
+	font-weight: bold;
+	font-family: monospace;
+	font-size: 35px;
+	font-family: 'Lora', serif;
+
+}
+.modal-title{
+	font-family: 'Mate SC', serif;
+	font-weight: bolder;
+}
+
+.btn-info{
+	transition: 0.5s ease-in-out;
+	letter-spacing: 2px;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 15px;
+	color: #fff;
+    background-color: #480032;
+    border-color: #480032;
+		font-family: 'Open Sans', sans-serif;
+}
+.btn-info:hover{
+	background-color:black;
+	border-color: black
+}
+p{
+	font-family: monospace;
+	font-size: 16px;
+	text-align: center;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: bolder;
+	color: black;
+}
+.btn-danger{
+	    margin-right: 250px;
+}
+.modal-content{
+	background-color: #edebca;
+}
+.text-danger{
+	color:black;
+	font-weight: bolder;
+}
+.des{
+	color: black;
+	font-weight: bolder;
+}
+</style>
+<body>
+<div class="container">
+<br>
+<h2 class="heading">Some Heritage Photos</h2><br>
+<p class="des">With Description</p><br>
+<div class="row">
+	<div class="col-md-4">
+<a href=""  data-toggle="modal" data-target="#myModal">
+	<div>
+		<img src="h1.jpg" class="img-responsive img-rounded" width="100%" height="100%">
+<div class="carousel-caption"><button class="btn btn-info">More</button></div>
+</div>
+</a>
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title text-center">North Park Street Cemetery</h2>
+        </div>
+        <div class="modal-body">
+        	<img src="h1.jpg" width="100%" height="100%">
+          <p class="text-danger"> Description</p>
+          <p>Robertson’s Monument is the only surviving tomb of the demolished North Park Street Cemetery. The historic Cemetery was a family burial ground of the well-known Robertson Family whose male members served the British police for three generations.
+             The North Park Street Cemetery, built in 1797, contained the grave of Lieutenant Colonel James Achilles Kirkpatrick, made immortal by author William Dalrymple in his best-selling novel, White Mughals.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+	</div>
+	<div class="col-md-4">
+<a href=""  data-toggle="modal" data-target="#myModal2">
+	<div>
+		<img src="h2.jpg" class="img-responsive img-rounded" width="100%" height="100%">
+<div class="carousel-caption"><button class="btn btn-info">More</button></div>
+</div>
+</a>
+  <div class="modal fade" id="myModal2" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title text-center">Calcutta Police Museum</h2>
+        </div>
+        <div class="modal-body">
+        	<img src="h2.jpg" width="100%" height="100%">
+          <p class="text-danger"> Description</p>
+          <p>The Calcutta Police Museum, situated at 123 Acharya Prafulla Chandra Road, was formerly the family residence of Raja Rammohan Roy. The residence was later converted into Sookeas Street Police Station during the British era.
+            The police museum, established in 1996 by the state government, houses a fascinating collection of guns, bullets, artefacts, and history. The door and wheel of Charles Tegart’s car, which was bombed by the revolutionaries, is also exhibited in the museum.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+	</div>
+	<div class="col-md-4">
+<a href=""  data-toggle="modal" data-target="#myModal3">
+	<div>
+		<img src="h3.jpg" class="img-responsive img-rounded" width="100%" height="100%">
+<div class="carousel-caption"><button class="btn btn-info">More</button></div>
+</div>
+</a>
+  <div class="modal fade" id="myModal3" role="dialog">
+    <div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title text-center">Belgachia Rajbari</h2>
+        </div>
+        <div class="modal-body">
+        	<img src="h3.jpg" width="100%" height="100%">
+          <p class="text-danger"> Description</p>
+          <p>The Belgachia Rajbari is situated inside the Belgachia Milk Colony in North Kolkata. The Palace, during the 18th century, was a popular outhouse for the rich and famous of Calcutta. The venue was frequented by Prince Dwarakanath Tagore and other notable names like the Dutch Prince of Orange Henry and the King Edward VII.
+             The Belgachia Rajbari also housed a theatre hall, where some of the famous Bengali plays have been staged. The much-acclaimed play, Ratnabali, was first staged in this Rajbari in the presence of literary luminaries like Michael Madhusudan Dutt.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+	</div>
+	<div class="col-md-4">
+<a href=""  data-toggle="modal" data-target="#myModal4">
+	<div>
+		<img src="h4.jpg" class="img-responsive img-rounded" width="100%" height="100%">
+<div class="carousel-caption"><button class="btn btn-info">More</button></div>
+</div>
+</a>
+  <div class="modal fade" id="myModal4" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title text-center">Shree Digambar Jain Pareswanath Temple</h2>
+        </div>
+        <div class="modal-body">
+        	<img src="h4.jpg" width="100%" height="100%">
+          <p class="text-danger"> Description</p>
+          <p>Located next to the Belgachia Bridge, is the spectacular Shree Digambar Jain Pareswanath Temple, a holy place of worship for the Digambara Jain community in Kolkata.
+             The temple, built in 1914, is dedicated to the 23rd Tirthankara Pareswanath. The interior of the temple is decorated with magnificent structures, fountains, flower beds, and landscaped rock gardens</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+	</div>
+
+
+	<div class="col-md-4">
+<a href=""  data-toggle="modal" data-target="#myModal5">
+	<div>
+		<img src="h5.jpg" class="img-responsive img-rounded" width="100%" height="100%">
+<div class="carousel-caption"><button class="btn btn-info">More</button></div>
+</div>
+
+</a>
+
+
+  <div class="modal fade" id="myModal5" role="dialog">
+    <div class="modal-dialog">
+
+
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title text-center">Marble Palace</h2>
+        </div>
+        <div class="modal-body">
+        	<img src="h5.jpg" width="100%" height="100%">
+          <p class="text-danger"> Description</p>
+          <p>Marble Palace is the home of the renowned Mullick family of Kolkata. The palace, built in 1840 by Zamindar Raja Rajendralal Mullick, is an architectural splendour. Situated in the northern part of the city, it still has a private zoo and a museum that houses a spectacular collection of curios and paintings including artworks of celebrated painters like Peter Paul Rubens and Sir Joshua Reynolds.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+	</div>
+
+
+
+
+
+	<div class="col-md-4">
+<a href=""  data-toggle="modal" data-target="#myModal6">
+<div>
+		<img src="h6.jpg" class="img-responsive img-rounded" width="100%" height="100%">
+<div class="carousel-caption"><button class="btn btn-info">More</button></div>
+</div>
+
+</a>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal6" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title text-center">Town Hall</h2>
+        </div>
+        <div class="modal-body">
+        	<img src="h6.jpg" width="100%" height="100%">
+          <p class="text-danger"> Description</p>
+          <p>The majestic Town Hall, located close to the city centre, stands as a witness to several historic gatherings and debates that had a huge impact on the political and socio-economic landscape of British India. The heritage building, erected in a Palladian style, was designed by French military engineer Colonel Gastin. The Hall was made open to the public in 1814.
+          The Town Hall, which is currently in the midst of a restoration process, accommodates a museum known as Kolkata Panorama, and a library that houses research works and personal collections of noted historian P.T. Nair.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+	</div>
+</div>
+</div>
+</body>
+</html>
